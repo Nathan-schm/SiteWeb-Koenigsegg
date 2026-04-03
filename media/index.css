@@ -1,0 +1,149 @@
+.carstitre{
+   font-family: 'Jockey One', sans-serif ;
+   font-size: 60px;
+   padding-left: 2em;
+   margin-bottom: 0;
+}
+
+.voitures{
+        font-family: 'Jockey One', sans-serif ;
+        padding: 2em;
+        padding-bottom: 4em;
+        display: flex;
+        flex-direction: row;    
+        justify-content: space-evenly;
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 0.8em;
+        margin: 2em;
+        border-radius: 0.6em;
+        transition: padding 0.6s ease, background-size 0.6s ease, color 0.6s ease;
+    }
+    p{
+        margin: 0;
+        font-size: 20px;
+    }
+    .trait{
+        padding: 2px;
+        background-color: black;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+  
+}
+
+
+.hovjesko:hover{
+    background-image: url(img/2020-Koenigsegg-Jesko-005-1440w.jpg) ;
+    background-size:80em;
+    padding: 15em;
+    padding-left: 35em;
+    p{
+        color: transparent;
+    }
+}
+
+.hovagera:hover{
+    background-image: url(img/2011-Koenigsegg-Agera-R-003-1080.jpg) ;
+    background-size:80em;
+    padding: 11em;
+    padding-left: 29em;
+     p{
+        color: transparent;
+    }
+}
+
+.hovregera:hover{
+    background-image: url(img/2016-Koenigsegg-Regera-006-2160.jpg) ;
+    background-size:80em;
+    padding: 15em;
+    padding-left: 29em;
+     p{
+        color: transparent;
+    }
+}
+
+.hovone:hover{
+    background-image: url(img/2014-Koenigsegg-Agera-One-1-001-1600.jpg) ;
+    background-size:80em;
+    padding: 15em;
+    padding-left: 29em;
+     p{
+        color: transparent;
+    }
+}
+
+.hovsadairs:hover{
+    background-image: url(img/2026-Koenigsegg-Sadairs-Spear-004-1440w.jpg) ;
+    background-size:80em;
+    padding: 14em;
+    padding-left: 35em;
+     p{
+        color: transparent;
+        font-size: 50px;
+        text-align: end;
+    }
+}
+
+.intersection{
+    padding-top: 5em;
+    background-color: black;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), transparent 100%) rgb(0, 0, 0);
+}
+
+.fond{
+    background-color: black;
+    color: white;
+    padding-bottom: 0;
+}
+.titre{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    h1{
+        margin: 0;
+        padding-left: 3em;
+        font-family: 'Jockey One', sans-serif ;
+        font-style: italic;
+        font-size: 80px;
+        padding-bottom: 1em;
+    }
+    p{
+        padding-right: 3em;
+        padding-top: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+}
+
+.innovations{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5em;
+    .texte{
+        padding-left: 2em;
+        padding-right: 2em;
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 30px;
+            font-family: 'Jockey One', sans-serif ;
+        }
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Jockey One', sans-serif ;
+        font-style: italic;
+        color: white;
+        border: solid 2px white ;
+        padding: 0.8em;
+        margin-right: 5em;
+        margin-left: 38em;
+        margin-top: 18em;
+        text-align: center;
+        border-radius: 1em;
+    }
+}

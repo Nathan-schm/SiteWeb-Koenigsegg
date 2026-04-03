@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(3, 74, 128) ;
+}
+
+.rouge{
+    background-color: rgb(166, 35, 25);
+    padding: 0.2em;
+}
+.jaunne{
+    background-color: rgb(245, 179, 57);
+    padding: 0.2em;
+}
+
+
+/* menu burger */
+button{
+    background: none;
+    border: none;
+    float: right;
+    margin: 2em;
+    cursor: pointer;
+
+    svg{
+        color: white;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 19%;
+    left: auto;
+    bottom: auto;
+    background-color: rgb(3, 74, 128) ;
+    border: none;
+    height: 100vh;
+    translate: 100% 0 ;
+    transition: translate 0.5s, display 0.5s ease-out allow-discrete;
+
+    &:popover-open{
+        translate: 0 0;
+
+        @starting-style{
+            translate: 100% 0;
+        }
+    }
+
+    ul{
+        list-style-type: none;
+        margin-top: 7em; ;
+
+        li{
+            padding: .5em 0;
+
+            a{
+                font-size: 1.5rem;
+                text-decoration: none;
+                color: white;
+            }
+            .car{
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: rgb(3, 74, 128) ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-bottom: 3em;
+    
+    .logofooter{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        margin-left: 10em;
+        margin-right: 1em;
+        padding-top: 5em;
+    }
+
+    .trait{
+        background-color: white;
+        padding: 0.5px;
+        margin-left: 11em;
+        margin-right: 4em;
+        margin-bottom: 1em;
+    }
+    .basfooter{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11em;
+        margin-right: 4em;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
