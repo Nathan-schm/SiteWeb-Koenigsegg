@@ -37,17 +37,18 @@ main{
 
 .message{
     background-color:  rgba(66, 66, 66, 0.589);
-    margin-left: 40em;
-    margin-right: 40em;
+    margin-left: 34%;
+    margin-right: 34%;
     padding: 3em;
     border-radius: 1em;  
     margin-bottom: 6em;
+    align-items: center;
     #mess{
         padding:0.8em ;
        
         #message-id{
             height: 8em;
-            padding-right: 23.7em;
+            padding-right: 62%;
        }
     }
 }
@@ -103,8 +104,8 @@ input,textarea{
     color: #0e0e0e;
     border-radius: 1em;
     padding: 0.8em;
-    font-size: 1em;
-    letter-spacing: 0.12em;
+    font-size: 1.1em;
+    font-family: 'Jockey One', sans-serif ;
     transition: background-color 0.2s;
 }
 

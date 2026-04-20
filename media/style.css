@@ -102,3 +102,68 @@ footer{
         }
     }
 }
+
+@media (max-width:393px ){
+
+    header{
+        img{
+            width: 50%;
+        }
+    }
+    button{
+    margin: 1em;
+    svg{
+        width: 30px;
+        height: 30px;
+    }
+    }
+
+    .rouge{
+    padding: 0.1em;
+    }
+    .jaunne{
+    padding: 0.1em;
+    }  
+
+    nav{
+        width: 32%;
+        height: 100%;
+        text-align: start;
+        ul{
+            margin-top: 1em; ;
+
+            li{
+                padding: 0em;
+
+                a{
+                    font-size: 18px;
+                }
+                .car{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    footer{
+    font-size: 12px;
+    padding-bottom: 1em;
+    .logofooter{
+
+        padding: 1em;
+        margin-left: 2em;
+        margin-right: 0em;
+        padding-top: 2em;
+    }
+    .trait{
+        padding: 0.5px;
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-bottom: 1em;
+    }
+    .basfooter{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    }   
+}
