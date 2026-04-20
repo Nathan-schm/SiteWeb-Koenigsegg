@@ -156,17 +156,17 @@
     }
 
     .voitures{
-    padding: 1em;
+    padding: 2em;
     padding-bottom: 1em;
         a{
-            margin: 0.4em;
+            margin: 0em;
         }
         p{
-            font-size: 12px;
+            font-size: 11px;
         }
         .trait{
-            margin-top: 1em;
-            margin-bottom: 1em;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
         }
     } 
 
