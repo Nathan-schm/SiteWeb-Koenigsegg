@@ -14,6 +14,41 @@ header{
     padding: 0.2em;
 }
 
+/* menu déroulant */
+.check-menu{
+display: none;
+}
+
+.avantderoulant{
+        margin-bottom: 0;
+}
+
+.label-menu{
+    display: inline-block;
+    margin-left: 1.6em;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.sous-menu{
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-left:2.5em ;
+    margin-bottom: 0;
+}
+
+.check-menu:checked ~ .sous-menu {
+  display: block;
+}
+
+.apresderoulant{
+    margin-top: 0;
+}
 
 /* menu burger */
 button{
@@ -62,7 +97,7 @@ nav{
                 color: white;
             }
             .car{
-                font-size: 13px;
+                font-size: 15px;
             }
         }
     }
