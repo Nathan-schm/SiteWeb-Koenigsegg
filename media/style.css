@@ -94,10 +94,21 @@ font-family: 'Jockey One', sans-serif ;
         margin-left: 1.2em;
     }
     .aprestitre{
-        padding-left: 28em;
         margin-top: -3.5em;
         padding-bottom: 1.5em;
         font-size: 20px;
+    }
+    #ageraapres{
+        padding-left: 28em;
+    }
+    #regeraapres{
+    padding-left: 27em;
+    }
+    #sadairapres{
+    padding-left: 32em;
+    }
+    #oneapres{
+        padding-left: 25em;
     }
     .text{
         font-size:30px;
@@ -135,14 +146,41 @@ font-family: 'Jockey One', sans-serif ;
         background-color: red;
         margin-right: 5px;
     }
+    #bleuclair{
+    background-color: #1c407a; 
+    }
+    #gris{
+        background-color: #d8d8d8;
+        margin-right: 5px;
+    }
+    #brun{
+        background-color: #5A2E1F;
+    }
+    #orange{
+        background-color: rgb(255, 126, 20);
+    }
 }
 .soustitre{
     font-family: 'Island Moments', cursive;
     font-size: 40px;
     font-style: italic;
-    margin-left: 7.5em;
     margin-top: -1.8em;
     padding-bottom: 1em;
+}
+#sousjesko{
+    margin-left: 6.8em;
+}
+#sousagera{
+    margin-left: 7.2em;
+}
+#sousregera{
+    margin-left: 7.9em;
+}
+#soussadair{
+    margin-left: 11.45em;
+}
+#sousone{
+    margin-left: 7em;
 }
 
 
@@ -275,6 +313,24 @@ footer{
                 margin-left: 1.2em;
                 margin-bottom: 0;
             }
+            .aprestitre{
+                padding-left: 15em;
+                margin-top: -1.6em;
+                padding-bottom: 1.5em;
+                font-size: 11px;
+            }
+            #ageraapres{
+                padding-left: 16em;
+            }
+            #regeraapres{
+                padding-left: 15em;
+            }
+            #sadairapres{
+                padding-left: 18em;
+            }
+            #oneapres{
+                padding-left: 15em;
+            }
             .text{
                 font-size:12px;
                 margin-top: 0em;
@@ -310,10 +366,24 @@ footer{
     .soustitre{
         font-family: 'Island Moments', cursive;
         font-size: 20px;
-
-        margin-left: 6.5em;
+        margin-left: 6.7em;
         margin-top: -1.7em;
         padding-bottom: 0em;
     }
+    #sousjesko{
+    margin-left: 6.2em;
+    }
+    #sousagera{
+        margin-left: 6.6em;
+    }
+    #sousregera{
+        margin-left: 7.3em;
+    }
+    #soussadair{
+        margin-left: 10em;
+    }
+    #sousone{
+    margin-left: 6.5em;
+}
 
 }

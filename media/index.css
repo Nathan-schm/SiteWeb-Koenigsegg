@@ -123,6 +123,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 5em;
+
     .texte{
         padding-left: 2em;
         padding-right: 2em;
@@ -194,6 +195,7 @@
                 height: 100%;
             }
             .texte{
+                font-size: 11px;
                 padding-left: 2em;
                 padding-right: 2em;
                 h2{
@@ -202,8 +204,8 @@
             }
             a{
                 padding: 0.8em;
-                margin-right: 0em;
-                margin-left: 10em;
+                margin-right: 1em;
+                margin-left: 12em;
                 margin-top: 1em;
                 border-radius: 1em;
             }
@@ -211,4 +213,57 @@
     #innovalve{
          flex-direction: column-reverse;
     }
+    .hovjesko:hover{
+    background-image: url(img/2020-Koenigsegg-Jesko-005-1440w.jpg) ;
+    background-size:7em;
+    padding: 0.8em;
+    padding-bottom:1em ;
+    padding-left: 3em;
+    p{
+        color: transparent;
+    }
 }
+
+.hovagera:hover{
+    background-image: url(img/2011-Koenigsegg-Agera-R-003-1080.jpg) ;
+    background-size:9em;
+    padding: 0.8em;
+    padding-left: 3em;
+     p{
+        color: transparent;
+    }
+}
+
+.hovregera:hover{
+    background-image: url(img/2016-Koenigsegg-Regera-006-2160.jpg) ;
+    background-size:8em;
+    padding: 0.8em;
+    padding-left: 3em;
+     p{
+        color: transparent;
+    }
+}
+
+.hovone:hover{
+    background-image: url(img/2014-Koenigsegg-Agera-One-1-001-1600.jpg) ;
+    background-size:7em;
+    padding: 0.8em;
+    padding-left: 3em;
+     p{
+        color: transparent;
+    }
+}
+
+.hovsadairs:hover{
+    background-image: url(img/2026-Koenigsegg-Sadairs-Spear-004-1440w.jpg) ;
+    background-size:7.5em;
+    padding: 0.5em;
+    padding-left: 3.5em;
+    p{
+        color: transparent;
+        font-size: 10px;
+        text-align: end;
+    }
+}
+}
+
