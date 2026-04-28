@@ -28,7 +28,7 @@ display: none;
     margin-left: 1.6em;
     color: white;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: clamp(14px, 1.5vw, 24px);
     text-decoration: none;
     color: white;
 }
@@ -92,7 +92,7 @@ nav{
             padding: .5em 0;
 
             a{
-                font-size: 1.5rem;
+                font-size: clamp(14px, 1.5vw, 24px);
                 text-decoration: none;
                 color: white;
             }
@@ -125,13 +125,13 @@ font-family: 'Jockey One', sans-serif ;
         margin-top: 1.5em;
     }
     h1{
-        font-size: 50px;
+        font-size: clamp(20px, 4vw, 50px);
         margin-left: 1.2em;
     }
     .aprestitre{
         margin-top: -3.5em;
         padding-bottom: 1.5em;
-        font-size: 20px;
+        font-size: clamp(11px, 1.8vw, 20px);
     }
     #ageraapres{
         padding-left: 28em;
@@ -146,7 +146,7 @@ font-family: 'Jockey One', sans-serif ;
         padding-left: 25em;
     }
     .text{
-        font-size:30px;
+        font-size: clamp(14px, 2.5vw, 30px);
         margin-top: -2em;
         margin-left: 2em;
         display: flex;
@@ -157,7 +157,7 @@ font-family: 'Jockey One', sans-serif ;
 }
 .titrebas{
     font-family: 'Jockey One', sans-serif ;
-    font-size: 60px;
+    font-size: clamp(25px, 5vw, 60px);
     margin-left: 1em;
     display: flex;
 
@@ -197,7 +197,7 @@ font-family: 'Jockey One', sans-serif ;
 }
 .soustitre{
     font-family: 'Island Moments', cursive;
-    font-size: 40px;
+    font-size: clamp(18px, 3.5vw, 40px);
     font-style: italic;
     margin-top: -1.8em;
     padding-bottom: 1em;
@@ -280,8 +280,12 @@ footer{
     padding: 0.1em;
     }  
 
+    .label-menu{
+    margin-left: 2.8em;
+}
+
     nav{
-        width: 50%;
+        width: 30%;
         height: 100%;
         text-align: start;
         ul{
@@ -291,17 +295,16 @@ footer{
                 padding: 0em;
 
                 a{
-                    font-size: 20px;
+                    font-size: clamp(11px, 1.8vw, 20px);
                 }
                 .car{
-                    font-size: 13px;
+                    font-size: 11px;
                 }
             }
         }
     }
 
     footer{
-    font-size: 12px;
     padding-bottom: 1em;
     .logofooter{
 
@@ -344,7 +347,6 @@ footer{
                 padding: 0px;
             }
             h1{
-                font-size: 15px;
                 margin-left: 1.2em;
                 margin-bottom: 0;
             }
@@ -352,22 +354,20 @@ footer{
                 padding-left: 15em;
                 margin-top: -1.6em;
                 padding-bottom: 1.5em;
-                font-size: 11px;
             }
             #ageraapres{
-                padding-left: 16em;
+                padding-left: 21em;
             }
             #regeraapres{
-                padding-left: 15em;
+                padding-left: 20em;
             }
             #sadairapres{
-                padding-left: 18em;
+                padding-left: 24em;
             }
             #oneapres{
-                padding-left: 15em;
+                padding-left: 19em;
             }
             .text{
-                font-size:12px;
                 margin-top: 0em;
                 margin-left: 0em;
                 display: flex;
@@ -381,7 +381,6 @@ footer{
     }
 
     .titrebas{
-        font-size: 25px;
         margin-left: 1em;
         display: flex;
 
@@ -400,25 +399,24 @@ footer{
     }
     .soustitre{
         font-family: 'Island Moments', cursive;
-        font-size: 20px;
         margin-left: 6.7em;
         margin-top: -1.7em;
         padding-bottom: 0em;
     }
     #sousjesko{
-    margin-left: 6.2em;
+    margin-left: 6.7em;
     }
     #sousagera{
-        margin-left: 6.6em;
-    }
-    #sousregera{
         margin-left: 7.3em;
     }
+    #sousregera{
+        margin-left: 8em;
+    }
     #soussadair{
-        margin-left: 10em;
+        margin-left: 11.2em;
     }
     #sousone{
-    margin-left: 6.5em;
+    margin-left: 7em;
 }
 
 }

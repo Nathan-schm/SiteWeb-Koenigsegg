@@ -1,6 +1,6 @@
 .carstitre{
    font-family: 'Jockey One', sans-serif ;
-   font-size: 60px;
+   font-size: clamp(30px, 5vw, 60px);
    padding-left: 2em;
    margin-bottom: 0;
 }
@@ -22,7 +22,7 @@
     }
     p{
         margin: 0;
-        font-size: 20px;
+        font-size: clamp(13px, 1.8vw, 20px);
     }
     .trait{
         padding: 2px;
@@ -36,9 +36,9 @@
 
 .hovjesko:hover{
     background-image: url(img/2020-Koenigsegg-Jesko-005-1440w.jpg) ;
-    background-size:80em;
-    padding: 15em;
-    padding-left: 35em;
+    background-size: cover;
+    padding: 8vw;
+    padding-left: 20vw;
     p{
         color: transparent;
     }
@@ -46,9 +46,9 @@
 
 .hovagera:hover{
     background-image: url(img/2011-Koenigsegg-Agera-R-003-1080.jpg) ;
-    background-size:80em;
-    padding: 11em;
-    padding-left: 29em;
+    background-size: cover;
+    padding: 8vw;
+    padding-left: 20vw;
      p{
         color: transparent;
     }
@@ -56,9 +56,9 @@
 
 .hovregera:hover{
     background-image: url(img/2016-Koenigsegg-Regera-006-2160.jpg) ;
-    background-size:80em;
-    padding: 15em;
-    padding-left: 29em;
+    background-size: cover;
+    padding: 8vw;
+    padding-left: 20vw;
      p{
         color: transparent;
     }
@@ -66,9 +66,9 @@
 
 .hovone:hover{
     background-image: url(img/2014-Koenigsegg-Agera-One-1-001-1600.jpg) ;
-    background-size:80em;
-    padding: 15em;
-    padding-left: 29em;
+    background-size: cover;
+    padding: 8vw;
+    padding-left: 20vw;
      p{
         color: transparent;
     }
@@ -76,13 +76,11 @@
 
 .hovsadairs:hover{
     background-image: url(img/2026-Koenigsegg-Sadairs-Spear-004-1440w.jpg) ;
-    background-size:80em;
-    padding: 14em;
-    padding-left: 35em;
+    background-size: cover;
+    padding: 8vw;
+    padding-left: 20vw;
      p{
         color: transparent;
-        font-size: 50px;
-        text-align: end;
     }
 }
 
@@ -107,7 +105,7 @@
         padding-left: 3em;
         font-family: 'Jockey One', sans-serif ;
         font-style: italic;
-        font-size: 80px;
+        font-size: clamp(36px, 6vw, 80px);
         padding-bottom: 1em;
     }
     p{
@@ -130,7 +128,7 @@
         display: flex;
         flex-direction: column;
         h2{
-            font-size: 30px;
+            font-size: clamp(18px, 2.2vw, 30px);
             font-family: 'Jockey One', sans-serif ;
         }
     }
@@ -141,9 +139,9 @@
         color: white;
         border: solid 2px white ;
         padding: 0.8em;
-        margin-right: 5em;
-        margin-left: 38em;
-        margin-top: 18em;
+        margin-right: 2em;
+        margin-left: auto;
+        margin-top: 2em;
         text-align: center;
         border-radius: 1em;
     }
@@ -155,7 +153,6 @@
 
 @media (max-width:393px ){
    .carstitre{
-    font-size: 40px;
     padding-left: 0em;
     text-align: center;
     }
@@ -166,9 +163,6 @@
         a{
             margin: 0em;
         }
-        p{
-            font-size: 11px;
-        }
         .trait{
             margin-top: 0.5em;
             margin-bottom: 0.5em;
@@ -178,13 +172,11 @@
     .titre{
         h1{
             padding-left: 0.5em;
-            font-size: 40px;
             padding-bottom: 0em;
         }
         p{
             padding-right: 1em;
             padding-top: 1.5em;
-            font-size: 13px;
         }
     }
 
@@ -195,17 +187,13 @@
                 height: 100%;
             }
             .texte{
-                font-size: 11px;
                 padding-left: 2em;
                 padding-right: 2em;
-                h2{
-                    font-size: 20px;
-                }
             }
             a{
                 padding: 0.8em;
-                margin-right: 1em;
-                margin-left: 12em;
+                margin-right: auto;
+                margin-left: auto;
                 margin-top: 1em;
                 border-radius: 1em;
             }
@@ -213,56 +201,5 @@
     #innovalve{
          flex-direction: column-reverse;
     }
-    .hovjesko:hover{
-    background-image: url(img/2020-Koenigsegg-Jesko-005-1440w.jpg) ;
-    background-size:7em;
-    padding: 0.8em;
-    padding-bottom:1em ;
-    padding-left: 3em;
-    p{
-        color: transparent;
-    }
-}
 
-.hovagera:hover{
-    background-image: url(img/2011-Koenigsegg-Agera-R-003-1080.jpg) ;
-    background-size:9em;
-    padding: 0.8em;
-    padding-left: 3em;
-     p{
-        color: transparent;
-    }
-}
-
-.hovregera:hover{
-    background-image: url(img/2016-Koenigsegg-Regera-006-2160.jpg) ;
-    background-size:8em;
-    padding: 0.8em;
-    padding-left: 3em;
-     p{
-        color: transparent;
-    }
-}
-
-.hovone:hover{
-    background-image: url(img/2014-Koenigsegg-Agera-One-1-001-1600.jpg) ;
-    background-size:7em;
-    padding: 0.8em;
-    padding-left: 3em;
-     p{
-        color: transparent;
-    }
-}
-
-.hovsadairs:hover{
-    background-image: url(img/2026-Koenigsegg-Sadairs-Spear-004-1440w.jpg) ;
-    background-size:7.5em;
-    padding: 0.5em;
-    padding-left: 3.5em;
-    p{
-        color: transparent;
-        font-size: 10px;
-        text-align: end;
-    }
-}
 }
