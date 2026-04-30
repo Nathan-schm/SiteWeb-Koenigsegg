@@ -258,7 +258,7 @@ footer{
 
 /* responsive pour le header et le footer */
 
-@media (max-width:393px ){
+@media (max-width:400px ){
 
     header{
         img{
@@ -328,7 +328,7 @@ footer{
 
 /* responsive pour la partie voitures */
 
-@media (max-width:393px ){
+@media (max-width:400px ){
 
 
     .description{
