@@ -20,7 +20,7 @@ display: none;
 }
 
 .avantderoulant{
-        margin-bottom: 0;
+        margin-bottom: 0.2em;
 }
 
 .label-menu{
@@ -47,7 +47,7 @@ display: none;
 }
 
 .apresderoulant{
-    margin-top: 0;
+    margin-top: 0.2em;
 }
 
 /* menu burger */
@@ -89,7 +89,7 @@ nav{
         margin-top: 7em; ;
 
         li{
-            padding: .5em 0;
+            padding: 0.2em 0;
 
             a{
                 font-size: clamp(14px, 1.5vw, 24px);

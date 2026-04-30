@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+main{
+    padding-left: 20%;
+    padding-right:  20%;
+    color: rgb(255, 255, 255);
+    font-family: 'Jockey One', sans-serif ;
+
+    .avanttitre {
+            text-align: center;
+        font-size: 0.72rem;
+        letter-spacing: 0.25em;
+        margin: 0;
+        color: rgb(245, 179, 57);
+        padding-top: 6em;
+        font-weight: 800;
+    }
+        
+    h1{
+        text-align: center;
+        font-size: 80px;
+        letter-spacing: 1px;
+        margin: 0;
+        font-weight: 800;
+    }
+    .imagemoi{
+        width: 25%;
+        margin-top: 3.1%;
+        margin-right: 3.1%;
+        margin-bottom: 3.1%;
+        border-radius: 1em;
+        border: solid 1px rgb(85, 85, 85);
+    }
+
+}
+
+.haut{
+    display: flex;
+}
+
+.paragraphe{
+    padding: 2em;
+    margin: 2em;
+    border: solid 1px rgb(85, 85, 85);
+    background-color: rgb(53, 53, 53);
+    border-radius: 1em;
+    font-size: 18px;
+    strong{
+        color: rgb(245, 179, 57);
+        font-weight: lighter;
+    }
+}
+
+.titre2{
+padding-left: 0.5em;
+border-left: solid;
+margin: 1.5em;
+color: rgb(245, 179, 57);
+}
+
+.fin{
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    img{
+        height: 240px;
+        border-top-left-radius:1em ;
+        border-top-right-radius: 1em;
+    }
+}
+
+.motif{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(53, 53, 53);
+    border: solid 1px rgb(85, 85, 85);
+    margin: auto;
+    border-radius: 1em;
+    h3{
+        padding-left: 1em;
+    }
+    p{
+        padding-left: 1em;
+    }
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.motif:hover{
+    border-color:  rgb(245, 179, 57);
+    transform: translateY(-5px);
+}
+
+
+
+
+@media (max-width:393px ){
+
+main{
+    padding-left: 0%;
+    padding-right:  0%;
+        
+    h1{
+        font-size: 60px;
+    }
+    .imagemoi{
+        width: 60%;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.haut{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraphe{
+    padding: 1.5em;
+    margin: 1.5em;
+    font-size: 14px;
+}
+
+.fin{
+    flex-direction: column;
+    img{
+        height: 200px;
+    }
+}
+
+.motif{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+}
