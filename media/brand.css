@@ -9,6 +9,8 @@
         display: flex;
         flex-direction: row;
         padding-top: 0.5em;
+        margin-left: 8.5%;
+        margin-top: 5%;
         p{
             font-size: 30px;
             margin-top: 0.75em;
@@ -17,52 +19,58 @@
         }
     }
 }
+.imglogo{
+    width: 20%;
+    margin-top: 15%;
+    margin-right: 0;
+}
+.noirblanc{
+    margin-right: 10%;
+}
 .founder{
     position: absolute;
     top: 30%;
     left: 10.5%;
     font-family: 'Courier New', Courier, monospace;
 }
-.imglogo{
-    position:absolute;
-    top: 43%;
-    left: 20%;
-    width: 30%;
-}
 
 @media (max-width:400px ){
 .title{
     display: flex;
-    justify-content: space-around;
-    padding: 2em;
-    padding-bottom: 5em;
-    img{
-        width: 60%;
-        padding-left: 1em;
-    }
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 0em;
+    padding:0 ;
     h1{
         font-family: 'Jockey One', sans-serif ;
-        font-size: 20px;
+        font-size: 30px;
         display: flex;
         flex-direction: row;
         padding-top: 0.5em;
+        margin-left: 8.5%;
+        margin-top: 5%;
         p{
             font-size: 10px;
-            margin-top: 1em;
+            margin-top: 2.2em;
+            padding-left:0.5em ;
+            padding-right: 0.5em;
         }
     }
 }
+.imglogo{
+    width: 100%;
+    margin-top: 20%;
+}
+.noirblanc{
+    width: 100%;
+    margin: auto;
+}
 .founder{
     position: absolute;
-    top: 15%;
-    left: 8%;
-    font-size: 12px;
+    top: 10%;
+    left: 16%;
+    font-family: 'Courier New', Courier, monospace;
 }
-.imglogo{
-    position:absolute;
-    top: 20%;
-    left: 23%;
-    width: 70%;
-}
-
 }

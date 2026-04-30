@@ -48,9 +48,14 @@ main{
        
         #message-id{
             height: 8em;
-            padding-right: 62%;
+            padding-right: 70%;
+            margin: auto ;
        }
     }
+}
+
+.messouge{
+    margin-left:3%;
 }
 
 }
@@ -86,10 +91,8 @@ input,textarea{
 .divider{
     background-color: rgb(85, 85, 85);
     padding: 0.5px;
-    margin-top:1em ;
-    margin-bottom: 0.5em;
-    margin-left: 0.8em;
-    margin-right: 1.8em;
+    margin: 3%;
+
 }
 
 .submit-row {
