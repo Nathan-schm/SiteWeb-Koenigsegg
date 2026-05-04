@@ -1,76 +1,79 @@
 .title{
     display: flex;
     justify-content: space-around;
-    padding: 2em;
-    padding-bottom: 5em;
+    flex-direction: column;
+    padding-left: 10%;
     h1{
         font-family: 'Jockey One', sans-serif ;
         font-size: 50px;
         display: flex;
         flex-direction: row;
-        padding-top: 0.5em;
-        margin-left: 8.5%;
-        margin-top: 5%;
+        margin-bottom: 0;
         p{
             font-size: 30px;
             margin-top: 0.75em;
             padding-left:0.5em ;
             padding-right: 0.5em;
+            margin-bottom: 0;
         }
     }
+    .founder{
+        font-family: 'Courier New', Courier, monospace;
+        padding-bottom: 15em;
+        margin-top: 0;
+        margin-left: 0.5%;
+    }
 }
-.imglogo{
-    width: 20%;
-    margin-top: 15%;
-    margin-right: 0;
+
+.titletop{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+
+    .imglogo{
+        width: 20%;
+        margin-top: 8%;
+        padding-right: 2%;
+    }
+    .noirblanc{
+        margin-right: 10%;
+    }
 }
-.noirblanc{
-    margin-right: 10%;
-}
-.founder{
-    position: absolute;
-    top: 30%;
-    left: 10.5%;
-    font-family: 'Courier New', Courier, monospace;
-}
+
+
 
 @media (max-width:400px ){
 .title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 0em;
-    padding:0 ;
+    padding-left: 10%;
     h1{
-        font-family: 'Jockey One', sans-serif ;
         font-size: 30px;
-        display: flex;
-        flex-direction: row;
-        padding-top: 0.5em;
-        margin-left: 8.5%;
-        margin-top: 5%;
         p{
-            font-size: 10px;
-            margin-top: 2.2em;
-            padding-left:0.5em ;
-            padding-right: 0.5em;
+            font-size: 15px;
+            margin-top: 1.05em;
         }
     }
+    .founder{
+        font-size: 13px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }
-.imglogo{
-    width: 100%;
-    margin-top: 20%;
-}
-.noirblanc{
-    width: 100%;
-    margin: auto;
-}
-.founder{
-    position: absolute;
-    top: 10%;
-    left: 16%;
-    font-family: 'Courier New', Courier, monospace;
+
+.titletop{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+
+    .imglogo{
+        width: 100%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .noirblanc{
+        margin-left: 10%;
+        margin-right: auto;
+        width: 100%;
+    }
 }
 }
