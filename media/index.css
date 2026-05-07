@@ -3,6 +3,7 @@
    font-size: clamp(30px, 5vw, 60px);
    padding-left: 2em;
    margin-bottom: 0;
+   padding-top: 1em;
 }
 
 .voitures{
@@ -85,8 +86,8 @@
 }
 
 .intersection{
-    padding-top: 5em;
     background-color: black;
+    padding-bottom: 15em;
     background: linear-gradient(to bottom, rgb(255, 255, 255), transparent 100%) rgb(0, 0, 0);
 }
 
@@ -101,7 +102,7 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
-    padding-top: 1em;
+    padding-top: 5em;
     background-color: rgba(0, 0, 0, 0.514);
     h1{
         margin: 0;
@@ -114,8 +115,9 @@
     p{
         padding-right: 3em;
         padding-top: 1em;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Jockey One', sans-serif ;
         font-style: italic;
+        color: white;
     }
 }
 
@@ -134,6 +136,9 @@
             font-size: clamp(18px, 2.2vw, 30px);
             font-family: 'Jockey One', sans-serif ;
         }
+    }
+    p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     a{
         text-decoration: none;
