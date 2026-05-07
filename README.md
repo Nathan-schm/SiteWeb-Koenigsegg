@@ -20,24 +20,15 @@ A modern and premium website inspired by **Koenigsegg** and its groundbreaking a
 * CSS3
 * Formspree
 
-## Project Structure
-
-```
-project/
-├── index.html
-├── contact.html
-├── media/
-│   ├── style.css
-│   ├── contact.css
-│   └── img/
-└── README.md
-```
-
 ## Innovations Featured
 
 * Dark Matter Motor
 * Light Speed Transmission
 * Freevalve Technology
+
+
+![Koenigsegg]([media/img/logokk.png](https://github.com/Nathan-schm/SiteWeb-Koenigsegg/blob/main/media/img/logokk.png))
+
 
 ## Author
 
