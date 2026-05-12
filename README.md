@@ -1,6 +1,6 @@
 # Koenigsegg Inspired Website
 
-## Live Demo
+## Link of the site
 
 [View Website](https://nathan-schm.github.io/SiteWeb-Koenigsegg/index.html)
 
@@ -26,14 +26,13 @@ A modern and premium website inspired by **Koenigsegg** and its groundbreaking a
 * Light Speed Transmission
 * Freevalve Technology
 
-
-![game footage](media/img/koenigsegg_jesko_absolut_prototype_2022_4k_8k-3840x2160.jpg)
+## Cars of Koenigsegg
+![Koenigseggimg](media/img/koenigsegg_jesko_absolut_prototype_2022_4k_8k-3840x2160.jpg)
 
 
 ## Author
 
 Nathan Schmid
-Front‑End Project
 
 ---
 
