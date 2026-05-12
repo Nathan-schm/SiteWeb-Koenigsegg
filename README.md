@@ -27,7 +27,7 @@ A modern and premium website inspired by **Koenigsegg** and its groundbreaking a
 * Freevalve Technology
 
 
-![Koenigsegg]([media/img/logokk.png])
+![game footage](media/img/logokk.png)
 
 
 ## Author
