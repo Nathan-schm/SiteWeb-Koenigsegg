@@ -2,7 +2,7 @@
 
 ## Link of the site
 
-[View Website](https://nathan-schm.github.io/SiteWeb-Koenigsegg/index.html)
+[Koenigsegg](https://nathan-schm.github.io/SiteWeb-Koenigsegg/index.html)
 
 A modern and premium website inspired by **Koenigsegg** and its groundbreaking automotive innovations.
 
