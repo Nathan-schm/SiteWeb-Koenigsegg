@@ -1,5 +1,7 @@
 body{
     background-color: rgb(32, 32, 32);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/koenigsegg_jesko_absolut_prototype_2022_4k_8k-3840x2160.jpg);
+    background-size:cover;
 }
 
 main{
@@ -101,6 +103,10 @@ color: rgb(245, 179, 57);
 
 
 @media (max-width:400px ){
+
+body{
+    background-image: none;
+}
 
 main{
     padding-left: 0%;

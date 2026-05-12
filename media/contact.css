@@ -1,5 +1,6 @@
 body{
     background-color: rgb(32, 32, 32);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/2020-Koenigsegg-Jesko-005-1440w.jpg);
 }
 
 .marge{
@@ -36,7 +37,7 @@ main{
    }
 
 .message{
-    background-color:  rgba(66, 66, 66, 0.589);
+    background-color:  rgba(66, 66, 66, 0.897);
     margin-left: 34%;
     margin-right: 34%;
     padding: 3em;
@@ -121,6 +122,10 @@ input,textarea{
 
 
 @media (max-width:400px ){
+
+body{
+    background-size: 300%;
+}
 
 .marge{
     padding: 0em;
