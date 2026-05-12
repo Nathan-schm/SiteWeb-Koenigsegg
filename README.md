@@ -27,7 +27,7 @@ A modern and premium website inspired by **Koenigsegg** and its groundbreaking a
 * Freevalve Technology
 
 
-![game footage](media/img/logokk.png)
+![game footage](media/img/koenigsegg_jesko_absolut_prototype_2022_4k_8k-3840x2160.jpg)
 
 
 ## Author
