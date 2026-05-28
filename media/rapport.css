@@ -1,0 +1,85 @@
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding-bottom: 2em;
+    .minititre{
+        padding-top: 3em;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    strong{
+            color: rgb(255, 200, 98);
+        }
+    h1{
+        font-size: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        
+    }
+    .divid{
+        margin: 1.5em;
+        margin-left: 0.5em;
+        background-color: rgb(255, 200, 98);
+        padding: 1px;
+        margin-right: 90%;
+    }
+    p{
+        letter-spacing: 1px;
+        color: rgba(255, 255, 255, 0.733);
+        margin: 10px;
+        font-family: 'Jockey One', sans-serif ;
+        font-size: 20px;
+    }
+}
+
+.lieninfo{
+    padding-right: 10%;
+    padding-left: 10%;
+    font-style: italic;
+    p{
+        padding: 0.5em;
+        font-size: 20px;
+        border-bottom: solid black 1px;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        padding: 0.5em;
+        border-left:solid  rgb(255, 200, 98) 1px ;
+        border-bottom:solid rgb(255, 200, 98) 1px ;
+    }
+    a:hover{
+        border-color: black;
+    }
+}
+h2{
+    margin-top: 3em;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.maquette{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    
+    img{
+        margin: 2em;
+        height: 240px;
+        border-radius:1em ;
+        transition:transform 0.2s; 
+    }
+    img:hover{
+    transform: translateY(-5px);
+}
+}
